@@ -1,4 +1,8 @@
-import Image from 'next/image';
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 const Footer = ()=>{
     return (
         <>
@@ -7,7 +11,7 @@ const Footer = ()=>{
                 {/* Email */}
                 <div className='pl-28 pt-4'>
                     <a href="mailto:jangidyogesh123@gmail.com" className='flex flex-row items-center'>
-                        <Image src="/SVG_icons/twitter.svg" alt='Twitter' width={24} height={24}/>
+                        <FaEnvelope />
                         <h1 className='pl-4'>Email : jangidyogesh123@gmail.com</h1>
                     </a>
                 </div>
@@ -15,7 +19,7 @@ const Footer = ()=>{
                 {/* LinkedIn */}
                 <div className='pl-28 pt-6'>
                     <a href="https://www.linkedin.com/in/yogesh-sharma-45201b231/" className='flex flex-row items-center'>
-                        <Image src="/SVG_icons/twitter.svg" alt='Twitter' width={24} height={24}/>
+                        <FaLinkedin />
                         <h1 className="pl-4">LinkedIn</h1>
                     </a>
                 </div>
@@ -25,7 +29,7 @@ const Footer = ()=>{
                 {/* Twitter */}
                 <div className='pl-28 pt-4'>
                     <a href="https://x.com/yogesharma2003" className='flex flex-row items-center'>
-                        <Image src="/SVG_icons/twitter.svg" alt='Twitter' width={24} height={24}/>
+                        <FaXTwitter />
                         <h1 className="pl-4">Twitter</h1>
                     </a>
                 </div>
@@ -33,7 +37,7 @@ const Footer = ()=>{
                 {/* Github */}
                 <div className='pl-28 pt-6'>
                     <a href="https://github.com/Jangidyogesh12" className='flex flex-row items-center'>
-                        <Image src="/SVG_icons/twitter.svg" alt='Twitter' width={24} height={24}/>
+                        <FaGithub />
                         <h1 className='pl-4'>Github</h1>
                     </a>
                 </div>    
