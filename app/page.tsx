@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <>
-    <section className="relative h-screen">
+    <section className="relative h-screen" id='Home'>
       <LoadingText/>
     </section>
     <section className={`overflow-hidden ${isLoading ? 'hidden':'block'}`}>
