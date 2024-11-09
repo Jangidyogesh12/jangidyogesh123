@@ -1,0 +1,2 @@
+const What_I_doText = "I am a Mechanical Engineering student with a passion for AI and ML, seeking to leverage engineering expertise and experience in AI/ML projects to drive innovation and solve complex problems."
+export default What_I_doText;
