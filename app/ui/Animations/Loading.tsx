@@ -110,14 +110,14 @@ const LoadingText: React.FC = () => {
                 </div>  
             </div>
             <div className="absolute inset-0 overflow-hidden">
-                <h1 className={`${roboto_slab.className} p-2 text-black text-7xl text-center mt-48 transition-transform duration-[2000ms] ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-60 opacity-0'}`}>
+                <h1 className={`${roboto_slab.className} p-2 text-black text-6xl text-center mt-48 transition-transform duration-[2000ms] ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-60 opacity-0'}`}>
                     Hello, I&#39;m Yogesh 
                 </h1>
-                <h1 className={`${roboto_slab.className} p-2 text-black text-7xl text-center transition-transform duration-[2000ms] ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-60 opacity-0'}`}>
+                <h1 className={`${roboto_slab.className} p-2 text-black text-6xl text-center transition-transform duration-[2000ms] ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-60 opacity-0'}`}>
                     I talk with Neural Networks  
                 </h1>
                 <div className={`flex justify-center pt-10 transition-transform duration-[4000ms] ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-60 opacity-0'}`}>
-                    <button className="bg-blue-800 border-1 border-black rounded-md w-[8vw] h-[6vh] shadow-[0_10px_15px_-3px_rgba(0,0.1,0.2,0.4),0_4px_6px_-2px_rgba(0,05,0.1,0.2)] trasnform active:scale-95 hover:scale-105 transition-transform duration-150 ease-in-out" onClick={()=>Scroll('MyWork')}>My Work</button>
+                    <button className="bg-blue-800 border-1 border-black rounded-md w-[100px] h-[35px] shadow-[0_10px_15px_-3px_rgba(0,0.1,0.2,0.4),0_4px_6px_-2px_rgba(0,05,0.1,0.2)] trasnform active:scale-95 hover:scale-105 transition-transform duration-150 ease-in-out" onClick={()=>Scroll('MyWork')}>My Work</button>
                 </div>
             </div>
             <div className={`absolute inset-x-0 bottom-0 h-[50vh] bg-[#dacfc0] transition-transform duration-[3000ms] ${slider_2 ? 'translate-y-2/3':'translate-y-0'}`}></div>

@@ -11,9 +11,9 @@ const About = ()=>{
             </div>
         </div>
         <div className="flex justify-center">
-            <div className="flex items-center border-[#0000001d] shadow-2xl border-2">
+            <div className="flex flex-col md:flex-row justify-center items-center border-[#0000001d] shadow-2xl border-2 w-[80vw]">
                 <Image src="/my_pic.jpg" alt="my_pic" height={280} width={280} />
-                <div className="w-[40vw] ml-28 text-black pr-6">
+                <div className="w-full md:w-[40vw] ml-0 p-10 md:ml-28 text-black pr-6">
                     <p className="text-justify cursor-default text-black" >{About_text}</p>
                 </div>
             </div>
