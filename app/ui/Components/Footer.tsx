@@ -9,8 +9,8 @@ const Footer = ()=>{
                 <div className="flex flex-row w-[350px] h-[200px] border-[2px] bg-[black] rounded-xl">
                     <div className="flex flex-row items-center h-[120px] w-full">
                         <div className="ml-4 mt-8 w-[100px] h-full">
-                            <div className="border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
-                                <Image src="/Social_links/X-logo.png" alt="Twitter" width={700} height={700} className="h-[100px] w-[100px] object-fit"/>
+                            <div className="flex items-center justify-center border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
+                                <Image src="/Social_links/X-logo.png" alt="Twitter" width={700} height={700} className="h-[100px] w-[100px] object-cover"/>
                             </div>
                             <h1 className="text-center pt-2">Twitter(X)</h1>
                             <div className="text-[#ffffff95] text-sm">
@@ -23,8 +23,8 @@ const Footer = ()=>{
                 <div className="flex flex-row w-[350px] h-[200px] border-[2px] bg-[black] rounded-xl">
                     <div className="flex flex-row items-center h-[120px] w-full">
                         <div className="ml-4 mt-8 w-[100px] h-full">
-                            <div className="border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
-                                <Image src="/Social_links/g-mail.png" alt="Gmail" width={700} height={700} className="h-[100px] w-[100px] object-fit"/>
+                            <div className="flex items-center justify-center border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
+                                <Image src="/Social_links/g-mail.png" alt="Gmail" width={700} height={700} className="h-[100px] w-[100px] object-cover"/>
                             </div>
                             <h1 className="text-center pt-2">Gmail</h1>
                             <div className="text-[#ffffff95] text-sm">
@@ -37,8 +37,8 @@ const Footer = ()=>{
                 <div className="flex flex-row w-[350px] h-[200px] border-[2px] bg-[black] rounded-xl">
                     <div className="flex flex-row items-center h-[120px] w-full">
                         <div className="ml-4 mt-8 w-[100px] h-full">
-                            <div className="border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
-                                <Image src="/Social_links/linkedIn.png" alt="LinkedIn" width={700} height={700} className="h-[100px] w-[100px] object-fit"/>
+                            <div className="flex items-center justify-center border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
+                                <Image src="/Social_links/linkedIn.png" alt="LinkedIn" width={700} height={700} className="h-[100px] w-[100px] object-cover"/>
                             </div>
                             <h1 className="text-center pt-2">LinkedIn</h1>
                             <div className="text-[#ffffff95] text-sm w-[200px]">
@@ -51,8 +51,8 @@ const Footer = ()=>{
                 <div className="flex flex-row w-[350px] h-[200px] border-[2px] bg-[black] rounded-xl">
                     <div className="flex flex-row items-center h-[120px] w-full">
                         <div className="ml-4 mt-8 w-[100px] h-full">
-                            <div className="border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
-                                <Image src="/Social_links/github.webp" alt="Github" width={700} height={700} className="h-[100px] w-[100px] object-fit"/>
+                            <div className="flex items-center justify-center border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
+                                <Image src="/Social_links/github.webp" alt="Github" width={700} height={700} className="h-[100px] w-[100px] object-cover"/>
                             </div>
                             <h1 className="text-center pt-2">Github</h1>
                             <div className="text-[#ffffff95] text-sm w-[200px]">
@@ -64,11 +64,11 @@ const Footer = ()=>{
                 </div>
                 <div className="flex flex-row w-[350px] h-[200px] border-[2px] bg-[black] rounded-xl">
                     <div className="flex flex-row items-center h-[120px] w-full">
-                        <div className="ml-4 mt-8 w-[100px] h-full">
-                            <div className="border-[1px] rounded-xl border-[#ffffff79] w-[100px] overflow-hidden ">
-                                <Image src="/Social_links/youtube.png" alt="YouTube" width={700} height={700} className="h-[100px] w-[100px] object-fit"/>
+                        <div className="ml-4 mt-14 w-[100px] h-full">
+                            <div className="flex items-center justify-center border-[1px] rounded-xl border-[#ffffff79] w-[100px] h-[70px] overflow-hidden">
+                                <Image src="/Social_links/youtube.png" alt="YouTube" width={700} height={700} className="h-[100px] w-[100px] object-cover"/>
                             </div>
-                            <h1 className="text-center pt-2">YouTube</h1>
+                            <h1 className="text-center pt-6">YouTube</h1>
                             <div className="text-[#ffffff95] text-sm w-[200px]">
                                 <p>Yogesh Sharma</p>
                             </div>
