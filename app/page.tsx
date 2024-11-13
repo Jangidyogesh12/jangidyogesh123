@@ -30,7 +30,7 @@ export default function Home() {
     <section className={`overflow-hidden ${isLoading ? 'hidden':'block'}`} id='About'>
       <About/>
     </section>
-    <section className={`overflow-hidden ${isLoading ? 'hidden':'block'}`} id='Footer'>
+    <section className={`overflow-hidden ${isLoading ? 'hidden':'block'} mt-16`} id='Footer'>
       <Footer/>
     </section>
     </>
